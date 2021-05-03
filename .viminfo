@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1620050067,,"wq"
+|2,0,1620051017,,"wq"
+:wq2
+|2,0,1620050950,,"wq2"
 :q!
 |2,0,1620047072,,"q!"
 :q
@@ -32,26 +34,86 @@
 |3,1,36,0,1,0,1620047008,"c"
 
 # File marks:
-'0  2  33  /etc/profile.d/maven.sh
-|4,48,2,33,1620050067,"/etc/profile.d/maven.sh"
-'1  5  0  /etc/yum.repos.d/jenkins.repo
-|4,49,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+'0  1  19  ~/samplefile.txt
+|4,48,1,19,1620051017,"~/samplefile.txt"
+'1  1  20  ~/testfile.text
+|4,49,1,20,1620050964,"~/testfile.text"
+'2  2  33  /etc/profile.d/maven.sh
+|4,50,2,33,1620050067,"/etc/profile.d/maven.sh"
+'3  5  0  /etc/yum.repos.d/jenkins.repo
+|4,51,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
 
 # Jumplist (newest first):
+-'  1  19  ~/samplefile.txt
+|4,39,1,19,1620051017,"~/samplefile.txt"
+-'  1  20  ~/testfile.text
+|4,39,1,20,1620050964,"~/testfile.text"
+-'  1  20  ~/testfile.text
+|4,39,1,20,1620050964,"~/testfile.text"
 -'  2  33  /etc/profile.d/maven.sh
 |4,39,2,33,1620050067,"/etc/profile.d/maven.sh"
+-'  2  33  /etc/profile.d/maven.sh
+|4,39,2,33,1620050067,"/etc/profile.d/maven.sh"
+-'  2  33  /etc/profile.d/maven.sh
+|4,39,2,33,1620050067,"/etc/profile.d/maven.sh"
+-'  2  33  /etc/profile.d/maven.sh
+|4,39,2,33,1620050067,"/etc/profile.d/maven.sh"
+-'  1  0  /etc/profile.d/maven.sh
+|4,39,1,0,1620049967,"/etc/profile.d/maven.sh"
+-'  1  0  /etc/profile.d/maven.sh
+|4,39,1,0,1620049967,"/etc/profile.d/maven.sh"
+-'  1  0  /etc/profile.d/maven.sh
+|4,39,1,0,1620049967,"/etc/profile.d/maven.sh"
 -'  1  0  /etc/profile.d/maven.sh
 |4,39,1,0,1620049967,"/etc/profile.d/maven.sh"
 -'  5  0  /etc/yum.repos.d/jenkins.repo
 |4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
 -'  5  0  /etc/yum.repos.d/jenkins.repo
 |4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  5  0  /etc/yum.repos.d/jenkins.repo
+|4,39,5,0,1620047072,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+|4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
 -'  1  0  /etc/yum.repos.d/jenkins.repo
 |4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
 -'  1  0  /etc/yum.repos.d/jenkins.repo
 |4,39,1,0,1620046874,"/etc/yum.repos.d/jenkins.repo"
 
 # History of marks within files (newest to oldest):
+
+> ~/samplefile.txt
+	*	1620051013	0
+	"	1	19
+	^	1	20
+	.	1	20
+	+	1	20
+
+> ~/testfile.text
+	*	1620050960	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
 
 > /etc/profile.d/maven.sh
 	*	1620050061	0
